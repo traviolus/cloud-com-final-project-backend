@@ -7,6 +7,14 @@ name = "pypi"
 django = "*"
 python-environ = "*"
 psycopg2 = "*"
+django-storages = "*"
+google = "*"
+google-api-python-client = "*"
+google-cloud = "*"
+google-cloud-storage = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
 
 [dev-packages]
 
