@@ -146,3 +146,6 @@ REST_FRAMEWORK = {
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = str(Path(__file__).resolve().parent) + '/credentials.json'
 DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
 GS_BUCKET_NAME = env('GOOGLE_CLOUD_STORAGE_BUCKET')
+
+# Facebook Authentication
+FB_PAGE_ACCESS_TOKEN = env('FB_PAGE_ACCESS_TOKEN')

@@ -131,3 +131,5 @@ dmypy.json
 .vscode
 credentials.json
 .DS_Store
+
+temp_files/
