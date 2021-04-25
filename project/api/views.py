@@ -22,3 +22,8 @@ class PrintTaskViewset(viewsets.ModelViewSet):
             return Response(status=200, data={'msg': 'Task started successfully.'})
         except Exception as e:
             return Response(status=400, data={'msg': str(e)})
+
+
+class SubscriberViewset(viewsets.ViewSet):
+    def create(self, request):
+        return Response(status=200, data=request.data)
