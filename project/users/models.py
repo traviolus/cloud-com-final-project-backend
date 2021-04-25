@@ -6,10 +6,9 @@ class User(models.Model):
     STATE_CHOICES = [
         ('NON_REGIS', 'Not Registered'),
         ('PROMPT_REGIS', 'Prompt Register'),
-        ('VERIFYING', 'Verifying'),
         ('IDLE', 'Idle'),
         ('PROMPT_PRINT', 'Prompt Print'),
-        ('QUEUE', 'Queue'),
+        ('QUEUEING', 'Queueing'),
         ('PRINTING', 'Printing')
     ]
 
