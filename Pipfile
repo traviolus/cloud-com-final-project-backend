@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+python-environ = "*"
+psycopg2 = "*"
+django-storages = "*"
+google = "*"
+google-api-python-client = "*"
+google-cloud = "*"
+google-cloud-storage = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
