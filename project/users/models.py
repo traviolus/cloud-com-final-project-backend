@@ -5,7 +5,6 @@ from django.core.validators import MinValueValidator
 class User(models.Model):
     STATE_CHOICES = [
         ('NON_REGIS', 'Not Registered'),
-        ('PROMPT_REGIS', 'Prompt Register'),
         ('IDLE', 'Idle'),
         ('PROMPT_PRINT', 'Prompt Print'),
         ('QUEUEING', 'Queueing'),
